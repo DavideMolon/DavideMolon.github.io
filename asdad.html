@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>360&deg; Image</title>
+    <meta name="description" content="360&deg; Image - A-Frame">
+    <script src="../../../dist/aframe-master.js"></script>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+
+
+    <style>
+        #panorama{
+         
+        }
+
+
+
+    .indietro__tasto{
+        
+        font-family: 'ELEGANT', sans-serif;
+        font-size: 2rem;
+        background-color: #ff8177;
+        background-image: linear-gradient(to top, #ff0844 30%, #ffb199 70%);
+        background-size: 100%;
+    }
+    </style>
+  </head>
+
+
+
+  <navv class="bar">
+    <div class="indietro__tasto">
+        <a href="/index.html">BACK</a>
+        
+    </div>
+  </navv>
+
+  <div class="panorama">
+  <body>
+    <a-scene>
+      <a-sky src="pic6.jpg" rotation="0 -130 0"></a-sky>
+
+      <a-text font="kelsonsans" value="Puy de Sancy, France" width="6" position="-2.5 0.25 -1.5"
+              rotation="0 15 0"></a-text>
+    </a-scene>
+
+</div>
+  </body>
+</html>
